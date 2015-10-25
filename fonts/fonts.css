@@ -1,0 +1,56 @@
+/* Open Sans Light 300 */
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  src: url('open-sans-light-300.woff2') format('woff2');
+  src: url('open-sans-light-300.ttf') format('truetype');
+}
+/* Open Sans Light 400 */
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: url('open-sans-normal-400.woff2') format('woff2');
+  src: url('open-sans-normal-400.ttf') format('truetype');
+}
+/* Open Sans Extra Bold 700 */
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  src: url('open-sans-bold-700.woff2') format('woff2');
+  src: url('open-sans-bold-700.ttf') format('truetype');
+}
+/* Open Sans Extra Bold 800 */
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 800;
+  src: url('open-sans-exbold-800.woff2') format('woff2');
+  src: url('open-sans-exbold-800.ttf') format('truetype');
+}
+
+/* Classes */
+.font-xbold {
+  font-weight: 800;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-light {
+  font-weight: 300;
+}
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif !important;
+  text-rendering: optimizeLegibility !important; 
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+}
