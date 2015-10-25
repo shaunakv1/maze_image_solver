@@ -8,5 +8,7 @@
     "js/app/controllers.js",
     "js/app/filters.js",
     "js/app/directives.js",
-    "js/app/app.js"
+    "js/app/app.js",
+    "js/app/floodfill.js",
+    "js/app/main.js"
 ]
